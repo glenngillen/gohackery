@@ -18,6 +18,10 @@ func main() {
 	sSlice = append(sSlice, "made")
 	sSlice = append(sSlice, "of")
 	sSlice = append(sSlice, "slices.")
-
 	println(strings.Join(sSlice, " "))
+
+	ssSlice := []string{"Finally", "shortcut"}
+	ssSlice = append(ssSlice, "slice")
+	ssSlice = append(ssSlice, "notation.")
+	println(strings.Join(ssSlice, " "))
 }
